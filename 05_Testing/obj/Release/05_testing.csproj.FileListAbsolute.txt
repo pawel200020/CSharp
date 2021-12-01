@@ -1,0 +1,13 @@
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\bin\Release\05_testing.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\bin\Release\05_testing.pdb
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\obj\Release\05_testing.csproj.AssemblyReference.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\obj\Release\05_testing.csproj.CoreCompileInputs.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\obj\Release\05_testing.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\05_testing\obj\Release\05_testing.pdb

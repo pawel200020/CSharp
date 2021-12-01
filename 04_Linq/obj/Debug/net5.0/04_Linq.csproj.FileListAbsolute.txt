@@ -1,0 +1,16 @@
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\bin\Debug\net5.0\04_Linq.deps.json
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\bin\Debug\net5.0\04_Linq.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\bin\Debug\net5.0\ref\04_Linq.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\bin\Debug\net5.0\04_Linq.pdb
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\obj\Debug\net5.0\04_Linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\obj\Debug\net5.0\04_Linq.AssemblyInfoInputs.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\obj\Debug\net5.0\04_Linq.AssemblyInfo.cs
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\obj\Debug\net5.0\04_Linq.csproj.CoreCompileInputs.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\obj\Debug\net5.0\04_Linq.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\obj\Debug\net5.0\ref\04_Linq.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\obj\Debug\net5.0\04_Linq.pdb
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\obj\Debug\net5.0\04_Linq.csproj.AssemblyReference.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\bin\Debug\net5.0\04_Linq.exe
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\bin\Debug\net5.0\04_Linq.runtimeconfig.json
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\bin\Debug\net5.0\04_Linq.runtimeconfig.dev.json
+D:\Code\UJ\CSharp_UJ\CSharpUJ\04_Linq\obj\Debug\net5.0\04_Linq.genruntimeconfig.cache

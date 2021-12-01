@@ -1,0 +1,51 @@
+----------------
+Atrybuty
+Assembly
+Reflection
+Partial class, partial method
+komentowanie kodu
+----------------
+Atrybuty - [] dodatkowe informacje w kodzie / w zwykłych przypadkach nie zmienia zachowania kodu
+Osolute - żeby zaznaczyć sobie starą wersję
+
+atrybut to klasa która dziedziczy po atribute
+CosTamAtribute nazwenictwo
+nie wszystkie typy są dopuszczalne w atrybutach
+[flags] - lepiej wyświetla ToString(), flags przed niczym nie chroni!!
+[serializable] - do json lub txt ułatwia konwersję
+
+Assembly
+1 assembly = 1 plik dll - jeden projekt skompiluje się do jednego pliku wynikowego
+manifest aplikacji - plik xml uruchamiany przy pliku exe - atrybuty do uruchomienia
+wersjonowanie i referencje - specific wersion - true i program odpali się tylko z konkretną wersją
+file verion = assembly version
+
+dotPeak - dekompresuje assembly do projektu
+podpisywanie biblotek - kluczem prywatnym i każda referencja sprawdza czy działa
+w properties - signing
+podpisane bibloteki muszą korzystać tylko z podpisanych
+niepodpisane mogą korzystać z podpisanych
+
+Global Assembly Cache 
+run app i mam w folderze dlle to gitara
+Global assembly cache - w windowsie jest także używany i można dodawać tam swoje podpisane dll'e
+wiele aplikacji korzysta ze wspólnych biliotek to aby zaoszczędzic miejsca
+dot net najpierw szuka dll'i w global assembly cache
+tylko trzeba uważać na to aby tam były nowe wersje
+
+przeglądanie metadanych assembly to jest Reflection
+dot peak tego używa, można nie tylko przeglądać ale i uruchamiać i mogę tam wszystko podejrzeć
+
+narzędzia utrudniające czytanie kodu
+
+Partial class
+generowanie kodu
+kawałek definicji klasy w jednym miejscu a reszta w innym dopisek Designer to kod generowany automatycznie
+generatory t4 - generowanie kodu xmlowa defnincja i z tego powstaje plik cs
+run custom tool - przebudowywuje szablony na cs
+
+komentarze XML - dodaje dokumentację do klasy opisuje co to robi i zmienne
+robicie jakiś plugin i dokumentację można mieć od razu w kodzie i używać linków
+narzędzia do robienia dokumentacji które umieją korzystać z tego xmla 
+
+docfx

@@ -1,0 +1,2 @@
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Lecture7.Plugins\obj\Debug\Lecture7.Plugins.csproj.AssemblyReference.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Lecture7.Plugins\obj\Debug\Lecture7.Plugins.csproj.CoreCompileInputs.cache

@@ -1,0 +1,92 @@
+lecture 3
+linq zwraca iterator
+trzeba dodać toList aby lista była
+opóznione wykonanie, wykonuje się tylko gdy użyjemy tego lub to toList
+IEnumerable może zwrócić nieskończony ciąg
+notacja lambda lepsza i więcej można zrobić 
+.where(x=>x>5) lambda expression
+where przyjmuje delegatę (wskaźnik na funkcje), rozwinięcie metod anonimowych
+Metody Anonimowe
+tworzona w momencie gdy jej potrzeba nie ma defenicji nigdzie i jest delegatą
+lamba exp są konewrtowane do drzew wyrażeń
+
+metoda anonimowa
+delgate (int exp ){...}
+lambda
+(int exp)=>{...}
+
+genetyczne delegaty
+action - bezparametrowe
+
+----Materiał właściwy----
+
+Testy jednostkowe
+obiekty imitacji (mocki)
+testowalny kod
+SOLID - łatwiej testować kod
+
+testy jednostkowe
+weryfikowanie poprawności działania pojedynczych elementów kodu
+muszą być czytelne
+testy chronią przed regresją
+
+Nunit, mock, xunit  
+
+Assert.AreEqual() pierwsza oczekiwana a druga jaka wyszła
+[TestFixture] <- info że tu są testy, można przekazać paramtery
+[TestCase(values, expectedResult)]<- jeden test dla różnych danych i to przed definicją metody testu
+[Random(51,100,20)]- losowanie z zakresu 20 razy
+[Values]-???
+
+mock - obiekt do imitacji jakiegoś zachowania
+
+constraint - mockq - biorą kod i korzystając z implementacji interfaceów, działają z zewnątrz, nie wnikają w kod (lepsze)
+uncostranint - wstrzykują do kodu proxy i inne 
+
+można wywoływać dla nie zainicjowanych wartości w mocku
+loose- wtedy można 
+strict - teraz już nie można wykonać czekokolwiek not initialized
+
+(od czego warto zacząć)
+kod testowalny - łatwo utrzymywalny, mozna napisać metody testujące
+ #1 logika w konstruktorach
+ tworzenie zależności nie powinno sie znajdować w konstruktorze, użycie new, odwołania do statycznych metod, ify i pętle w konstruktorze
+
+ należy:
+ 1. dependency injection
+ 2. wykorzystać fabryki / kontenery
+ 3. użyć metody init() - ostatcznie !!!
+
+zależności powinniśmy otrzymywać
+
+przekopywanie się przez obiekty które dostajemy i tam mamy coś co jest potrzebne
+trzeba tworzyć oczekiwane obiekty dla testowanych elementów
+
+Prawo Demeter - więcej niż 1 kropka
+
+w trakcie pisania testów musimy tworzyć mocki zwracające inne mocki - przebijanie się przez inne klasy aby wywołać testowaną klasę
+
+Stan globalny - rzeczy które są widoczne w całym procesie dla każego testu które mogą wpływać na ich wzajemny wynik
+singleton, service locator - statyczne pole które przechowuje singletona lub sewis
+powodują że kod jest bardzo ciężko testowalny
+znaki ostrzegawcze:
+statyczne pola nienarzędziowe - tzn ustawiają coś tam
+dodawanie, użwyanir rejestrów
+
+solution:
+dependency injection
+fasady, adaptery - dla zewnętrznych obiektów
+
+klasy robiące za dużo (S - single responsibility)
+warnings:
+dużo scrollowania
+dużo pól i metod
+dużo zależności
+podsumowanie tego co robi klasa
+
+solution:
+identyfikacja odpowiedzialności
+nazwyanie każdej z nich
+wydzielenie odpowiedzialności
+utworzenie klasy mediacyjnej pomiędzy klasami SR
+napisanie testów jednostowych w izolacji

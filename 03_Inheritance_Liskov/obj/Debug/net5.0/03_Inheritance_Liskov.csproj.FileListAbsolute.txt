@@ -1,0 +1,16 @@
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\bin\Debug\net5.0\03_Inheritance_Liskov.exe
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\bin\Debug\net5.0\03_Inheritance_Liskov.deps.json
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\bin\Debug\net5.0\03_Inheritance_Liskov.runtimeconfig.json
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\bin\Debug\net5.0\03_Inheritance_Liskov.runtimeconfig.dev.json
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\bin\Debug\net5.0\03_Inheritance_Liskov.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\bin\Debug\net5.0\ref\03_Inheritance_Liskov.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\bin\Debug\net5.0\03_Inheritance_Liskov.pdb
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\obj\Debug\net5.0\03_Inheritance_Liskov.csproj.AssemblyReference.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\obj\Debug\net5.0\03_Inheritance_Liskov.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\obj\Debug\net5.0\03_Inheritance_Liskov.AssemblyInfoInputs.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\obj\Debug\net5.0\03_Inheritance_Liskov.AssemblyInfo.cs
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\obj\Debug\net5.0\03_Inheritance_Liskov.csproj.CoreCompileInputs.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\obj\Debug\net5.0\03_Inheritance_Liskov.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\obj\Debug\net5.0\ref\03_Inheritance_Liskov.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\obj\Debug\net5.0\03_Inheritance_Liskov.pdb
+D:\Code\UJ\CSharp_UJ\CSharpUJ\03_Inheritance_Liskov\obj\Debug\net5.0\03_Inheritance_Liskov.genruntimeconfig.cache

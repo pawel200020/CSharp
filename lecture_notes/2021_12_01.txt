@@ -1,0 +1,69 @@
+wielowątkowość 
+async
+parallel LINQ
+task TPL
+synchronizowanie watkow
+
+serwer webowy
+apka co dużo oblicza
+tworzenie responsywnego ui
+wykonywanie zadań z wyprzedzeniem
+
+thread safe - nawet jeśli dostęp z wielu wątków to i tak nic się nie zepsuje
+race condition - jeśli wynik zależy od kolejności wątków
+
+Operowanie na wątkach c#
+
+Klasa thread - 2.0
+klasa task - 3.5
+metody async - 4.0
+
+ile apka w c# ma procesów i wątków- 1 i 1
+rzeczy static widać w ramach jednego procesu alee wielu wątków
+zamknięcie procesu killuje apke ale wątku już nie
+jeśli jest jeden rdzeń to clr dzieli czas procesora dla każdego wątku
+yield - przekazanie sterowania wątkowi
+sleep(1) - przekazanie sterowania wątkowi o niższym o 1 priorytecie
+operacje io - oczekiwanie na odp web serwisu lub bazy danych
+spinning - aktywne czekanie - non stop pytam czy można już wykonać coś
+blocking - bierne czekanie zapytaj, sleep and repeat
+
+priorytety wątków
+przekazanie paramteru dla wątków - arg do metody tylko typu object, param dodawanie przy t.Start(args)
+nie trzeba podpinać pod wątek metody można np przy pomocy wyrażenia lambda dodać funkcję
+przydatne gdy chcemy wieloarg funkcję niekoniecznie z object
+
+pobieranie wartości z wątku tylko przez out
+nie obsługi łapania wyjątków międy wątkami
+try catch każdy w swoim wątku
+wyjątki nie są przekazywane do główneog wąktku
+
+nowy wątek jest background
+pula wątków - reuse thread - czasem trzeba sobie stworzyć!
+
+Parell LINQ - wykorzystuje już raczej taski
+zrównoleglanie metod linq - AsParallel - operacja zrównoleglenia.
+samo decyduje ile wątków stworzyć i jak to obsłużyć
+
+utworzy tyle wątków ile corów ma maszyna gdy potrzeba więcej wątków niż jest corów
+można zafixować ilość wątków
+gdy jest ważna kolejność lepiej nie używać
+też opóźnione wykonanie
+ForAll - wykonanie wyników
+
+TASK - zaczynać od tego !!
+abstrakcja na jakąś operację to nie znaczy że się wykona w innym wątku
+Task.Run()- można pezekazać funkcję jako parametr
+klasa zwraca wystartowany task
+
+zwracanie parametrów
+generyczny task
+result - zwrot wartości ale uwaga trzeba poczekać aż wątek się skończy
+
+on completed - wykonaj task po wykonaniu tasku 
+get result - skorzystaj z rezultatu poprzednika
+
+continiue with- rób tego taska gdy skończysz obecny i pobierz z niego wynik
+Task.Delay() - opóźnian wykonanie, zwraca taska 
+
+wyjątki - można złapać innym tasku, opakowany w agregate exception 

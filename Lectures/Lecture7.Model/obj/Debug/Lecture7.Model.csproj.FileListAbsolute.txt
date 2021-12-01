@@ -1,0 +1,6 @@
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Lecture7.Model\bin\Debug\Lecture7.Model.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Lecture7.Model\bin\Debug\Lecture7.Model.pdb
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Lecture7.Model\obj\Debug\Lecture7.Model.csproj.AssemblyReference.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Lecture7.Model\obj\Debug\Lecture7.Model.csproj.CoreCompileInputs.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Lecture7.Model\obj\Debug\Lecture7.Model.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Lecture7.Model\obj\Debug\Lecture7.Model.pdb

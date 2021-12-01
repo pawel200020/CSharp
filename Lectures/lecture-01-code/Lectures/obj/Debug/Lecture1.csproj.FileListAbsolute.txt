@@ -1,0 +1,14 @@
+C:\Users\p1\Downloads\lecture-01-code\Lectures\bin\Debug\Lectures.exe.config
+C:\Users\p1\Downloads\lecture-01-code\Lectures\bin\Debug\Lectures.exe
+C:\Users\p1\Downloads\lecture-01-code\Lectures\bin\Debug\Lectures.pdb
+C:\Users\p1\Downloads\lecture-01-code\Lectures\obj\Debug\Lecture1.csproj.AssemblyReference.cache
+C:\Users\p1\Downloads\lecture-01-code\Lectures\obj\Debug\Lecture1.csproj.CoreCompileInputs.cache
+C:\Users\p1\Downloads\lecture-01-code\Lectures\obj\Debug\Lectures.exe
+C:\Users\p1\Downloads\lecture-01-code\Lectures\obj\Debug\Lectures.pdb
+D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-01-code\Lectures\bin\Debug\Lectures.exe.config
+D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-01-code\Lectures\bin\Debug\Lectures.exe
+D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-01-code\Lectures\bin\Debug\Lectures.pdb
+D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-01-code\Lectures\obj\Debug\Lecture1.csproj.AssemblyReference.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-01-code\Lectures\obj\Debug\Lecture1.csproj.CoreCompileInputs.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-01-code\Lectures\obj\Debug\Lectures.exe
+D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-01-code\Lectures\obj\Debug\Lectures.pdb

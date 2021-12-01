@@ -1,0 +1,37 @@
+Dynamic
+c# statycznie typowany
+dynamicznie typowany - typ sprawdzony dopiero w runtime
+c# word docs
+współpraca z Iron Python
+
+bining - static/dynamic - wybranie metody która ma zostać wykonana które przeciążenie / z klasy dziedziczącej czy nie
+obiekt i jest na nim metoda length 
+
+dynamic d = new object()
+i dopiero w runtime będzie zorbiony binding (runtime binding exception)
+dynamic - może zmieniać typ w trakcie programu
+raz int raz string
+
+czy można tam gdzie object dać decimala dynamic ? Jak najbardziej, każdy typ można rzutować na object
+
+var vs dynamic
+do dynamic foreach dynamic
+dopiero w runtime wszystkie błędy
+string + int zamienia inta na stringa
+
+duck typing - zakładam że jest taka metoda i chcę ją wywołać i tyle
+w miejscu gdzie brakuje wspólnego interface'u np chodzi o to, że chcę mieć int i decimala jako generyk
+
+DynamicObject - klasa po której można dziedziczyć i zaimplenetować własnego dynamica
+zareogowanie na wywołanie metody na moim objectcie
+dynamic jest wolnieszy niż statyczny kod
+
+dynamic to object oznaczony atrybutem dynamic
+jak jest metoda z param dynamic to nie można przeciążyć metodę objectem
+
+where T struct - typ wartościowy 
+
+ograniczenia w dynamicznym kodzie:
+na obiekcie trzymanym w dynamic nie można wywołać ext methods
+składowych metod inteface expilit
+składowych typu bazowego przysłoniętych przez klasę pochodną

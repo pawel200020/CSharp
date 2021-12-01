@@ -1,0 +1,50 @@
+ad lecture 2
+jakie obiekty usuwa garbage collector
+int, string, tab[], class
+gdy opuszczam blok kodu to wszystko co jest na stosie jest kasowane
+to co pozostaje na stercie, pozostaje bez referencji <- garbage colletor cleans
+garbage collector - part of clr i on wywołuje go cyklicznie co jakiś czas nie wiadomo kiedy
+
+finalizator ~Test(){...} nie może mieć parametrów ani być publiczny czy statyczny
+garbage colletor kasuje obiekt dopiero po jego wywołaniu
+jeśli klasa ma niezarządzalne zasoby to musi być dispose a najlepiej aby był w finalizatorze
+rzadko kiedy stosowany, wydłuża garbage collection o 1 cykl
+
+dobry finalizator:
+-jak zostanie wywołany dispose to nie nie trzeba go użyć         GC.SupperssFinallize();
+
+GB generacje
+0 - (max 256mb) wszystkie obiekty które nie przetrwały żadnego cyklu
+1 - 1 cykl
+2- 2 lub więcej
+
+zwalnianie pamięci i (kompatkowanie najdłużej)- przesuwanie obiektów w pamięci
+generacja 0 uruchamiana bardzo często bo max 256 mb
+85 000 bajtów - duży obiekt (large object heap) czyszczony z 2 generacją i nie jest kompatkowany
+można wymusić kompatkowanie JAWNIE
+
+badanie wydajności projektu
+np uplad pliku w apce webowej
+upload pliku implemenetuje się kawałkami
+
+wycieki pamięci C#
+-niezwalnianie pamięci przez obiekty
+
+
+--LECTURE 3--
+
+
+boxing - przypisanie typu prostego tam gdzie oczekuje sie referencji
+
+int c =22;
+object obj = c;
+ArrayList - objektowa
+
+funkcja przyjmująca object - wrzucenie typu prostego spowoduje boxing
+
+Typy generyczne - typ który ma jako zmienną paramter na którym operuje
+MyType <T> gdzie t moze być czymkolwiek 
+
+najczęściej use lista generyczna
+arraylist gdy chcemy obiekty różnego typu
+

@@ -1,0 +1,15 @@
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\bin\Release\net5.0\02_Parlament_simulator.exe
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\bin\Release\net5.0\02_Parlament_simulator.deps.json
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\bin\Release\net5.0\02_Parlament_simulator.runtimeconfig.json
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\bin\Release\net5.0\02_Parlament_simulator.runtimeconfig.dev.json
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\bin\Release\net5.0\02_Parlament_simulator.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\bin\Release\net5.0\ref\02_Parlament_simulator.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\bin\Release\net5.0\02_Parlament_simulator.pdb
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\obj\Release\net5.0\02_Parlament_simulator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\obj\Release\net5.0\02_Parlament_simulator.AssemblyInfoInputs.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\obj\Release\net5.0\02_Parlament_simulator.AssemblyInfo.cs
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\obj\Release\net5.0\02_Parlament_simulator.csproj.CoreCompileInputs.cache
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\obj\Release\net5.0\02_Parlament_simulator.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\obj\Release\net5.0\ref\02_Parlament_simulator.dll
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\obj\Release\net5.0\02_Parlament_simulator.pdb
+D:\Code\UJ\CSharp_UJ\CSharpUJ\Parlament\obj\Release\net5.0\02_Parlament_simulator.genruntimeconfig.cache

@@ -1,0 +1,75 @@
+Lecture 3
+konwersja typów - ważne 
+kowariancja, kontrawariancja - dodatkowo
+chodzi o to że np jest klasa zwierzę i dziedziczy pies i kot itam gdzie jest wymagany parameter lista zwierząt to nie można przyjąć listy kotów bo lista nie jest typem kowariantym
+
+Krotki:
+jeśli chcesz np aby funkcja zwracała 2 - n wartości
+krotka ma własności nie wartości !!
+raczej używać w małym obszarze kodu
+nowość - krotki w () nawiasach + można dodawać nazwy
+
+dla typów wartościowych nie można dodać nulla !
+System.Nullable<T> typ generyczny który można używać dla typów wartościowych int? - int który może przjąć nulla
+można np użyć HasValue
+
+logika trzystanowa (true, false, null)
+                    x      y     z
+if (x>z) false
+if(x<z) false 
+bo nie da się porónwać nulla nijak
+operator lifting 
+tzn int null = int null
+
+wzorzec iterator
+zapewnia możliwość przejrzenia zawartości bez wiadmości w jaki sposób po tym przechodzić
+IEnumerable - kolekcje muszą go implementować aby mieć iterator
+foreach - działa tylko na rzeczach co implemenetują IEnumerable
+iterator może tylko przechodzić dalej, wracać na początek i nic więcej aby wiedzieć ile elementów jest to trzeba przejść przez cały kontener
+w foreachu nie można zmieniać zawartości kontenera
+yiel return - zwracamy
+
+---lecture 4---
+uławtienia w pisaniu kodu - var - nie trzeba podawać typu ale kompilator musi być w stanie że określić typ
+nie można określać zmiennej bez inicjalizacji 
+nie można zmieniać typów!!!
+
+inicjalizatory obiektów i lista
+po konstruktorze w nawiasach klamrowych można ustalać własności
+less code = better
+
+extension methods - metody które będą na klasie już istniejącej bez ingerencji w nią
+1. public static bool DoSth (this string s) - metoda bezparamterowa wykonywana na stringu
+2. trzeba zaimplemetować w statycznej klasie i metodzie
+
+metoda będzie tam gdzie jest widoczna tzn w tej samej przestrzeni nazw lub dodać using DoSthClass
+kiedy zrobic metody rozszerzające a kiedy klasę narzędziową?
+jeśli coś jest algorymicznie oczywiste tzn jest jedna metoda na coś
+
+Method Changing -   text.capitalize()
+                    .pluralize()
+                    ...
+interesuje mnie to co mam na końcu
+---------LINQ-----------
+Najczęsciej używane w C#
+
+używane na kolekcjach
+.Count
+.ToArray
+.Any
+Linq to zestaw metod rozszerzających dla IEnumarble<T> dla wszystkich klas implemenetujcych IEnumerable<T>
+tzn że jest tam interator
+iteruje po kolekcjach
+
+Linq ma implemenacje dla IQuerable <T>
+operuje na drzewach wyrażeń (metadane)
+jeśli ktoś implementuje to musi wyważenia zamienić na zapytania np .Net freamework przerobi na sql query
+using System.Linq - widzimy te metody
+
+1. wykonwyane natychmiast Any
+2. wykonywane opóżnione - pierwsze proszenie o dane - uruchamia iterator
+
+Najpierw dostajesz iterator a czy coś z nim robiłeś
+jeśli nie no to wsm nic zrobię
+
+nie nadużywać counta
