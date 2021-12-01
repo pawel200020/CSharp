@@ -1,7 +1,0 @@
-D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-04-code\Lecture4\bin\Debug\Lecture4.exe.config
-D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-04-code\Lecture4\bin\Debug\Lecture4.exe
-D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-04-code\Lecture4\bin\Debug\Lecture4.pdb
-D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-04-code\Lecture4\obj\Debug\Lecture4.csproj.AssemblyReference.cache
-D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-04-code\Lecture4\obj\Debug\Lecture4.csproj.CoreCompileInputs.cache
-D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-04-code\Lecture4\obj\Debug\Lecture4.exe
-D:\Code\UJ\CSharp_UJ\CSharpUJ\lecture-04-code\Lecture4\obj\Debug\Lecture4.pdb
