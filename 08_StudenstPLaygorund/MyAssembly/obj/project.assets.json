@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\UJ\\CSharp_UJ\\CSharpUJ\\08_StudenstPLaygorund\\MyAssembly\\MyAssembly.csproj",
+      "projectUniqueName": "D:\\Code\\UJ\\CSharp2\\08_StudenstPLaygorund\\MyAssembly\\MyAssembly.csproj",
       "projectName": "MyAssembly",
-      "projectPath": "D:\\Code\\UJ\\CSharp_UJ\\CSharpUJ\\08_StudenstPLaygorund\\MyAssembly\\MyAssembly.csproj",
+      "projectPath": "D:\\Code\\UJ\\CSharp2\\08_StudenstPLaygorund\\MyAssembly\\MyAssembly.csproj",
       "packagesPath": "C:\\Users\\p1\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\UJ\\CSharp_UJ\\CSharpUJ\\08_StudenstPLaygorund\\MyAssembly\\obj\\",
+      "outputPath": "D:\\Code\\UJ\\CSharp2\\08_StudenstPLaygorund\\MyAssembly\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\p1\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\UJ\\CSharp_UJ\\CSharpUJ\\08_StudenstPLaygorund\\StudenstPLaygorund\\StudenstPLaygorund.csproj": {}
+    "D:\\Code\\UJ\\CSharp2\\08_StudenstPLaygorund\\StudenstPLaygorund\\StudenstPLaygorund.csproj": {}
   },
   "projects": {
-    "D:\\Code\\UJ\\CSharp_UJ\\CSharpUJ\\08_StudenstPLaygorund\\StudenstPLaygorund\\StudenstPLaygorund.csproj": {
+    "D:\\Code\\UJ\\CSharp2\\08_StudenstPLaygorund\\StudenstPLaygorund\\StudenstPLaygorund.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\UJ\\CSharp_UJ\\CSharpUJ\\08_StudenstPLaygorund\\StudenstPLaygorund\\StudenstPLaygorund.csproj",
+        "projectUniqueName": "D:\\Code\\UJ\\CSharp2\\08_StudenstPLaygorund\\StudenstPLaygorund\\StudenstPLaygorund.csproj",
         "projectName": "StudenstPLaygorund",
-        "projectPath": "D:\\Code\\UJ\\CSharp_UJ\\CSharpUJ\\08_StudenstPLaygorund\\StudenstPLaygorund\\StudenstPLaygorund.csproj",
+        "projectPath": "D:\\Code\\UJ\\CSharp2\\08_StudenstPLaygorund\\StudenstPLaygorund\\StudenstPLaygorund.csproj",
         "packagesPath": "C:\\Users\\p1\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\UJ\\CSharp_UJ\\CSharpUJ\\08_StudenstPLaygorund\\StudenstPLaygorund\\obj\\",
+        "outputPath": "D:\\Code\\UJ\\CSharp2\\08_StudenstPLaygorund\\StudenstPLaygorund\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\p1\\AppData\\Roaming\\NuGet\\NuGet.Config",

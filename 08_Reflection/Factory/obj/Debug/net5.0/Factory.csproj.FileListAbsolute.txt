@@ -1,0 +1,16 @@
+D:\Code\UJ\CSharp2\08_Reflection\Factory\obj\Debug\net5.0\Factory.csproj.AssemblyReference.cache
+D:\Code\UJ\CSharp2\08_Reflection\Factory\obj\Debug\net5.0\Factory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\UJ\CSharp2\08_Reflection\Factory\obj\Debug\net5.0\Factory.AssemblyInfoInputs.cache
+D:\Code\UJ\CSharp2\08_Reflection\Factory\obj\Debug\net5.0\Factory.AssemblyInfo.cs
+D:\Code\UJ\CSharp2\08_Reflection\Factory\obj\Debug\net5.0\Factory.csproj.CoreCompileInputs.cache
+D:\Code\UJ\CSharp2\08_Reflection\Factory\bin\Debug\net5.0\Factory.exe
+D:\Code\UJ\CSharp2\08_Reflection\Factory\bin\Debug\net5.0\Factory.deps.json
+D:\Code\UJ\CSharp2\08_Reflection\Factory\bin\Debug\net5.0\Factory.runtimeconfig.json
+D:\Code\UJ\CSharp2\08_Reflection\Factory\bin\Debug\net5.0\Factory.runtimeconfig.dev.json
+D:\Code\UJ\CSharp2\08_Reflection\Factory\bin\Debug\net5.0\Factory.dll
+D:\Code\UJ\CSharp2\08_Reflection\Factory\bin\Debug\net5.0\ref\Factory.dll
+D:\Code\UJ\CSharp2\08_Reflection\Factory\bin\Debug\net5.0\Factory.pdb
+D:\Code\UJ\CSharp2\08_Reflection\Factory\obj\Debug\net5.0\Factory.dll
+D:\Code\UJ\CSharp2\08_Reflection\Factory\obj\Debug\net5.0\ref\Factory.dll
+D:\Code\UJ\CSharp2\08_Reflection\Factory\obj\Debug\net5.0\Factory.pdb
+D:\Code\UJ\CSharp2\08_Reflection\Factory\obj\Debug\net5.0\Factory.genruntimeconfig.cache
