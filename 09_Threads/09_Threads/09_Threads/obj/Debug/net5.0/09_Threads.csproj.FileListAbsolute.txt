@@ -1,0 +1,16 @@
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\obj\Debug\net5.0\09_Threads.csproj.AssemblyReference.cache
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\obj\Debug\net5.0\09_Threads.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\obj\Debug\net5.0\09_Threads.AssemblyInfoInputs.cache
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\obj\Debug\net5.0\09_Threads.AssemblyInfo.cs
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\obj\Debug\net5.0\09_Threads.csproj.CoreCompileInputs.cache
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\bin\Debug\net5.0\09_Threads.exe
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\bin\Debug\net5.0\09_Threads.deps.json
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\bin\Debug\net5.0\09_Threads.runtimeconfig.json
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\bin\Debug\net5.0\09_Threads.runtimeconfig.dev.json
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\bin\Debug\net5.0\09_Threads.dll
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\bin\Debug\net5.0\ref\09_Threads.dll
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\bin\Debug\net5.0\09_Threads.pdb
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\obj\Debug\net5.0\09_Threads.dll
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\obj\Debug\net5.0\ref\09_Threads.dll
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\obj\Debug\net5.0\09_Threads.pdb
+D:\Code\UJ\CSharp2\09_Threads\09_Threads\09_Threads\obj\Debug\net5.0\09_Threads.genruntimeconfig.cache
