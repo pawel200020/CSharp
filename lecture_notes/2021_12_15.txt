@@ -1,0 +1,84 @@
+windows formsy
+okno jest klasą
+jak uruchamiamy designer to uruchamia się metoda initialize component
+podstawowe kotrolki okna:
+view -> other windows -> toolbox - wszystkie kontrolki
+przyciski, chceck boxy, labele itd.
+pod f4 mamy własności kontrolek i nazwy, pod tą nazwą widzisz kontrolkę w kodzie.
+forma obsługi zdarzeń -> events
+nazewnictwo -> skrót symbolizujący typ kontrolki a dalej co robi kontrolka
+dane kontrolki są private
+trzeba samemu wymyślić sposób komunikacji między oknami!
+okno to kontener.
+document outline - wszystkie elementy formsa
+
+Okna i dialogi modalne
+Application.Run(OknoStartowe);
+metoda na zdarzenie on click button -> i tworzymy klasę z nowym formsem
+można zablokować wcześniejsze okno
+show dialog sprawia że okno się pokazuje
+
+Podstawowe kontenery:
+3 podstawowe layouty kontrolek
+główną częścią okna jest grid który się resizeuje a buttony są zakotwiczone w dane miejsce
+flow layout panel - stara się ułożyć obok siebie ale gdy nie da sie to zawija je w dół
+table layout panel - skaluje się wszystko po połowie.
+kotwiczenie - dock - kontrolka wypełni całość lub którąś z krawędzi dock - wszystkie są zakotwiczone do lewego rogu 
+
+tab order - ustawienie kolejności tabulacji
+messagebox- klasa która ma metodę show - tam mogę określic jaki ma być tekst wewnąrz kommunikatu i przyciski i ikonka
+taki messagebox zwraca rezultat który ktos wybrał.
+
+okna i dialogi modalne
+dwa sposoby pokazaywania kolecji w kontrolkach:
+- listbox
+-list view 
+-tree view
+-grid view - bardziej zaawansowana
+-combo box - wybór jendnej pozycji
+
+np rzeczy które się nie zmieniają - statycznie ustawienie zawartości - kolekcja przynależna do kontrolki
+każda kontrolka ma items
+
+data binding - podpięcie do źródła danych danej kontrolki
+zaimplementowane 3 mechanizmy - baza danych, service, object
+binding source opakowuje kolekcję zamówień i daje do grida
+są mechanizmy do odświerzania kontrolek
+
+używa się albo wbudowanego zestawu kontrolek albo kupionych, nikt raczej nie robi nowych
+user control - kompozycja już istniejących kontrolek
+jak strawić aby user control był usefull
+można atrybutami oznaczać publiczne własności które są potem widoczne w designerze
+
+wady/ zalety
+-edytor graficzny - prostota tworzenia aplikacji
+-problemy z dpi większym niż 100%
+-nie jest wspierane już
+
+trzymanie wszystkich danych przy dużej apce jest niemożliwe
+
+----------------------Windows Presentation Foundation--------------------------------------
+-wciąż rozwijane
+-działające dpi
+
+aplikacja wpf- kontroli są w przestrzeni nazw windows
+działają wszystkie funkcje windowsa
+xaml - do UI jakaś tam forma xml'a
+edytor graficzny jest raczej tylko pokazówką jak to wygląda, raczej używa się xaml'a a w designerze result
+xaml - to nie jest html język interpretowany w runtime, jest to język do generowania obiektu
+rozdzielienie ui od kodu.
+nazwamy pascal casem gdzie na końcu jest typ kontrolki
+można się pokusić o zrobienie kontrolek samemu
+
+style - w węźle resources jeśli mają być wspódzielone
+ale też monżna wewnątrz konkretnej kontrolki
+style mogą po sobie dziedziczyć
+dynamiczne przekazywanie rzeczy w xamlu
+target type = button - dla wszystkich przycisków
+
+okrągły przycisk można zrobić np
+
+łatwe i ładne wyświetlanie
+
+trochę inaczej kontenery- canvas - przypinanie kontrolek
+dodając kontrolki do canvasa trzeba określić gdzie mają być zadockowane
