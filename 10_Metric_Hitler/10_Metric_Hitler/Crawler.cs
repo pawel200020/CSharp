@@ -1,9 +1,7 @@
 ﻿using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace _10_Metric_Hitler
@@ -12,12 +10,12 @@ namespace _10_Metric_Hitler
     {
         readonly private int mainThreadId;
         readonly private string mainLink;
-        readonly private int depth;
+        readonly private long depth;
         private List<string> links;
-        public Crawler(int mainThreadId, int depth,string mainLink)
+        public Crawler(int mainThreadId, long depth,string mainLink)
         {
             this.mainThreadId = mainThreadId;
-            this.depth = depth + 1;
+            this.depth = depth;
             if (mainLink.Equals("http://en.wikipedia.org/wiki/Special:Random"))
             {
                 this.mainLink = GetFinalRedirect(mainLink);
@@ -27,24 +25,60 @@ namespace _10_Metric_Hitler
                 this.mainLink = mainLink;
             }
         }
-        private static void StartThread(string url)
+        private void StartThread(string url)
         {
-            Crawler c = new Crawler(0, 0, url);
+            Crawler c = new Crawler(this.mainThreadId, this.depth + 1, url);
             c.Run();
         }
-        public void Run()
+        public async void Run()
         {
-            Console.WriteLine(mainLink);
+
+            if (mainLink.Equals("https://en.wikipedia.org//wiki/Adolf_Hitler"))
+            {
+                try
+                {
+                    await Program.semaphore.WaitAsync();
+                    if (depth < Program.depthArray[mainThreadId])
+                    {
+                        Program.depthArray[mainThreadId] = depth;
+                    }
+                    Program.res.Add($"Adolf znaleziony w watku: {mainThreadId} na glebokosci {depth}");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.BackgroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine($"Adolf znaleziony w watku: {mainThreadId} na glebokosci {depth}");
+                    Console.ResetColor();
+                }
+                finally
+                {
+                    Program.semaphore.Release();
+                }
+                
+
+                return;
+            }
+            if (Program.visited.Contains(mainLink) || depth == Program.MAX_DEPTH)
+            {
+                return;
+            }
+            else
+            {
+                Program.visited.Add(mainLink);
+            }
+
+            Console.WriteLine(mainLink+" depth: "+depth+" mainthreadId: "+mainThreadId);
             links = GetAllLinksFromWebPage();
+            var tasks = new List<Task>();
             foreach (var item in links)
             {
-                Task taskA = Task.Run(() => StartThread(item));
-                taskA.Wait();
+                Task t = new Task(() => StartThread(item));
+                tasks.Add(t);
+                t.Start();
             }
+            Task.WaitAll(tasks.ToArray());
         }
         private bool FilterPage(string a)
         {
-            if (a.StartsWith("/wiki/") && !a.Contains("/wiki/File:") && !a.Contains("/wiki/Special:") && !a.Contains("/wiki/Category") && !a.Contains("/wiki/Talk") && !a.Contains("/wiki/Template:") && !a.Contains("/wiki/Template_talk:") && !a.Contains("/wiki/Help") && !a.Contains("/wiki/Wikipedia:Stub"))
+            if (a.StartsWith("/wiki/") && !a.Contains("/wiki/File:") && !a.Contains("/wiki/Special:") && !a.Contains("/wiki/Category") && !a.Contains("/wiki/Talk") && !a.Contains("/wiki/Template:") && !a.Contains("/wiki/Template_talk:") && !a.Contains("/wiki/Help") && !a.Contains("/wiki/Wikipedia:Stub") && !a.Contains("/wiki/User:"))
             {
                 return true;
             }
@@ -61,13 +95,9 @@ namespace _10_Metric_Hitler
             foreach (HtmlNode node in doc.DocumentNode.SelectNodes("//a/@href"))
             {
                 string a = node.GetAttributeValue("href", null);
-                if (a.Contains("//en.m.wikipedia.org/wiki/"))
-                {
-                    Console.WriteLine("--------------------------"+a);
-                }
                 if (a.Equals("/wiki/Main_Page"))
                 {
-                    Console.WriteLine(i + " " + a);
+                   // Console.WriteLine(i + " " + a+"\n\n");
                     break;
                 }
                 if (FilterPage(a))
@@ -75,7 +105,7 @@ namespace _10_Metric_Hitler
                     
                     if (!result.Contains(a))
                     {
-                        Console.WriteLine(i + " " + a);
+                        //Console.WriteLine(i + " " + a);
                         result.Add("https://en.wikipedia.org/" + a);
                         ++i;
                     }          
