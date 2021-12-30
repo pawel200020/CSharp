@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "020b27cd-ee68-48d4-98a9-25ad77447fef": {
+      "ProjectGuid": "020b27cd-ee68-48d4-98a9-25ad77447fef",
+      "DisplayName": "SandwichProcessor",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

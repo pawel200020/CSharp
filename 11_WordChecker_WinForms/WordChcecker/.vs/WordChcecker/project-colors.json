@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0c391fcf-48e9-42c9-b461-b189b12a10bf": {
+      "ProjectGuid": "0c391fcf-48e9-42c9-b461-b189b12a10bf",
+      "DisplayName": "WordChcecker",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
