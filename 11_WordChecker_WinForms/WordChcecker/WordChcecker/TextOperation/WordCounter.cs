@@ -21,7 +21,7 @@ namespace WordChcecker.TextOperation
                 }
                 progress.Report(i*100/input.Count);
                 i++;
-                Thread.Sleep(100);
+                Thread.Sleep(50);
             }
             return wordsWithQuantity;
         }

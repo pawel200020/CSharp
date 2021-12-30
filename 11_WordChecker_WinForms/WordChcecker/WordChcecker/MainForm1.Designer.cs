@@ -30,6 +30,7 @@ namespace WordChcecker
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Text_Analyzer));
             this.inputText = new System.Windows.Forms.TextBox();
             this.errorText = new System.Windows.Forms.TextBox();
             this.countText = new System.Windows.Forms.TextBox();
@@ -38,7 +39,6 @@ namespace WordChcecker
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -122,7 +122,7 @@ namespace WordChcecker
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button1.CausesValidation = false;
             this.button1.Font = new System.Drawing.Font("Bradley Hand ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(144, 414);
+            this.button1.Location = new System.Drawing.Point(22, 414);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(119, 34);
             this.button1.TabIndex = 8;
@@ -149,13 +149,6 @@ namespace WordChcecker
             this.tableLayoutPanel1.Size = new System.Drawing.Size(785, 366);
             this.tableLayoutPanel1.TabIndex = 9;
             // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(440, 418);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(254, 23);
-            this.progressBar1.TabIndex = 10;
-            // 
             // backgroundWorker1
             // 
             this.backgroundWorker1.WorkerReportsProgress = true;
@@ -166,12 +159,12 @@ namespace WordChcecker
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(809, 453);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Text_Analyzer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Text Analyzer";
@@ -185,15 +178,14 @@ namespace WordChcecker
 
         #endregion
 
-        private TextBox inputText;
-        private TextBox errorText;
-        private TextBox countText;
+        public TextBox inputText;
+        public TextBox errorText;
+        public TextBox countText;
         private Label label1;
         private Label label2;
         private Label label3;
         private Button button1;
         private TableLayoutPanel tableLayoutPanel1;
-        public ProgressBar progressBar1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

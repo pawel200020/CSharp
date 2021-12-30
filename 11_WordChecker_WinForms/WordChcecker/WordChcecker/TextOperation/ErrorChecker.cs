@@ -4,8 +4,9 @@ namespace WordChcecker
 {
     static internal class ErrorChecker
     {
-        public static List<string> ErrorWords(this List<string> input)
+        public static List<string> ErrorWords(this List<string> input, IProgress<int> progress)
         {
+            int i = 1;
             List<string> result = new List<string>();
             bool wasFound = false;
             string[] lines = File.ReadAllLines("dictionary.txt");
@@ -27,6 +28,9 @@ namespace WordChcecker
                 }
 
                 wasFound = false;
+                progress.Report(i * 100 / input.Count);
+                i++;
+                Thread.Sleep(50);
             }
             return result;
         }

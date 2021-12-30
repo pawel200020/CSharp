@@ -16,3 +16,4 @@ D:\Code\UJ\CSharp2\11_WordChecker_WinForms\WordChcecker\WordChcecker\obj\Debug\n
 D:\Code\UJ\CSharp2\11_WordChecker_WinForms\WordChcecker\WordChcecker\obj\Debug\net6.0-windows\WordChcecker.genruntimeconfig.cache
 D:\Code\UJ\CSharp2\11_WordChecker_WinForms\WordChcecker\WordChcecker\obj\Debug\net6.0-windows\WordChcecker.Text_Analyzer.resources
 D:\Code\UJ\CSharp2\11_WordChecker_WinForms\WordChcecker\WordChcecker\obj\Debug\net6.0-windows\WordChcecker.Properties.Resources.resources
+D:\Code\UJ\CSharp2\11_WordChecker_WinForms\WordChcecker\WordChcecker\obj\Debug\net6.0-windows\WordChcecker.Please_wait.resources
