@@ -8,48 +8,63 @@
         Title="Stock Exchange" Height="450" Width="800">
     <Window.Resources>
         <Style TargetType="TextBlock">
-            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Foreground" Value="White" />
             <Setter Property="FontSize" Value="60" />
             <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="TextAlignment" Value="Center" />
-
+        </Style>
+        
+        <Style TargetType="StackPanel">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="ColumnDefinition">
+            <Setter Property="Width" Value="1*"/>
+        </Style>
+        <Style TargetType="RowDefinition">
+            <Setter Property="Height" Value="1*"/>
+        </Style>
+        <Style TargetType="Border">
+            <Setter Property="Background" Value="#D1D1D1"/>
+            <Setter Property="BorderBrush" Value="#353535"/>
+            <Setter Property="BorderThickness" Value="5,5,5,5"/>
         </Style>
 
-
     </Window.Resources>
+    
     <Grid Name="MyGrid">
         <Grid.ColumnDefinitions >
-            <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="1*" />
+            <ColumnDefinition />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions >
-            <RowDefinition Height="1*" ></RowDefinition>
-            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition />
+            <RowDefinition />
         </Grid.RowDefinitions>
         
-        <Border x:Name="leftTop" Grid.Column="0" Grid.Row="0" Background="#D1D1D1 " BorderBrush="#353535" BorderThickness="5,5,5,5"/>
-        <Border x:Name="rightTop" Grid.Column="1" Grid.Row="0" Background="#D1D1D1 " BorderBrush="#353535" BorderThickness="5,5,5,5"/>
-        <Border x:Name="leftBotton" Grid.Column="0" Grid.Row="1" Background="#D1D1D1 " BorderBrush="#353535" BorderThickness="5,5,5,5"/>
-        <Border x:Name="rightBotton" Grid.Column="1" Grid.Row="1" Background="#D1D1D1 " BorderBrush="#353535" BorderThickness="5,5,5,5"/>
+        <Border x:Name="leftTop" Grid.Column="0" Grid.Row="0" />
+        <Border x:Name="rightTop" Grid.Column="1" Grid.Row="0" />
+        <Border x:Name="leftBotton" Grid.Column="0" Grid.Row="1"/>
+        <Border x:Name="rightBotton" Grid.Column="1" Grid.Row="1"/>
         
-        <StackPanel Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <StackPanel Grid.Column="0" Grid.Row="0">
             <TextBlock Name="leftTop_Name" Text="KGHM"/>
             <TextBlock Name="leftTop_Price" Text="100 PLN"/>
             <TextBlock Name="leftTop_Change" FontSize="25" Text="-0.07 PLN"/>
         </StackPanel>
 
-        <StackPanel Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" >
+        <StackPanel Grid.Column="1" Grid.Row="0" >
             <TextBlock Name="rightTop_Name" Text="PKO BP"/>
             <TextBlock Name="rightTop_Price" Text="43.7 PLN"/>
             <TextBlock Name="rightTop_Change" FontSize="25" Text="0.07 PLN"/>
         </StackPanel>
 
-        <StackPanel Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Grid.Column="1" Grid.Row="1" >
             <TextBlock Name="rightBotton_Name" Text="ORLEN"/>
             <TextBlock Name="rightBotton_Price" Text="100.5 PLN"/>
             <TextBlock Name="rightBotton_Change" FontSize="25" Text="-0.07 PLN"/>
         </StackPanel>
-        <StackPanel Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Grid.Column="0" Grid.Row="1">
             <TextBlock Name="leftBotton_Name" Text="LOTOS"/>
             <TextBlock Name="leftBotton_Price" Text="98.7 PLN"/>
             <TextBlock Name="leftBotton_Change" FontSize="25" Text="0.07 PLN"/>
