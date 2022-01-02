@@ -40,6 +40,7 @@ namespace WordChcecker
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -153,12 +154,23 @@ namespace WordChcecker
             // 
             this.backgroundWorker1.WorkerReportsProgress = true;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(505, 431);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(83, 19);
+            this.checkBox1.TabIndex = 10;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Text_Analyzer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(809, 453);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -187,5 +199,6 @@ namespace WordChcecker
         private Button button1;
         private TableLayoutPanel tableLayoutPanel1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private CheckBox checkBox1;
     }
 }
