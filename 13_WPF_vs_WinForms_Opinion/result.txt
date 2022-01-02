@@ -1,0 +1,14 @@
+WinForms
+1) Łatwiesze i bardziej intuicyjne tworzenie UI
+2) Nieco archaiczny wygląd, widziałem wiele tutoriali do winformsów jeszcze na windows XP co wskazuje na jego wiek.
+3) Intiucyjne zarządzanie elemenatami UI delegaty, podpinanie metod pod button
+4) wiele łatwych i zrozumiałych poradników
+5) Łatwiej stworzyć prostą mało wymagającą od UI aplikację
+6) trudne zarządzanie poprawnym zachowaniem elementów okna
+WPF
+1) Na początu aby wgl zacząć należy poznać podstawy xaml'a podobny do html'a lecz inne komendy
+2) Dla łatwych aplikacji dłużej zajmuje zapoznanie się z WPF niż samo pisanie kodu
+3) Łatwe zarządzanie elemenatami UI (poprawne skalowanie i rozmieszczenie elementów)
+4) Ładnieszy wygląd aplikacji
+5) nowa technologia
+Podsumowjąc bardziej spodobały mi się winFormsy, aby zrozumieć dokładnie WPF muszę poświęcić jeszcze trochę więcej czasu, są one nieco bardziej złożone lecz przyszłościowe
