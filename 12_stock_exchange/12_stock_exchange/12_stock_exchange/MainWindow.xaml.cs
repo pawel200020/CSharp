@@ -16,12 +16,13 @@ namespace _12_stock_exchange
         {
             InitializeComponent();  
             Random r = new Random();
-            LaunchProcess(r,leftTop,leftTop_Price, leftTop_Change);
-            LaunchProcess(r, rightTop, rightTop_Price, rightTop_Change);
-            LaunchProcess(r, rightBotton, rightBotton_Price, rightBotton_Change);
-            LaunchProcess(r, leftBotton, leftBotton_Price, leftBotton_Change);
+            int delay = 5000;
+            LaunchProcess(r,leftTop,leftTop_Price, leftTop_Change, delay);
+            LaunchProcess(r, rightTop, rightTop_Price, rightTop_Change, delay);
+            LaunchProcess(r, rightBotton, rightBotton_Price, rightBotton_Change, delay);
+            LaunchProcess(r, leftBotton, leftBotton_Price, leftBotton_Change, delay);
         }
-        private void LaunchProcess(Random r, Border border, TextBlock currPriceFiled, TextBlock diffPriceFiled)
+        private void LaunchProcess(Random r, Border border, TextBlock currPriceFiled, TextBlock diffPriceFiled,int delay)
         {
             var t = Task.Run(() =>
             {
@@ -51,8 +52,7 @@ namespace _12_stock_exchange
                         currPriceFiled.Text = a1.ToString("0.##") + " PLN";
                         diffPriceFiled.Text=a2.ToString("0.##")+" PLN";
                     }));
-                    Thread.Sleep(1000);
-
+                    Thread.Sleep(delay);
                 }
             });
         }
