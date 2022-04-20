@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ha4eV90/1wjHwoCh/C2vdhgIrnsWkQkDBRSXGvOPeu+PhesAqsi7yKki+oMD9tvETqXNoCoX8VfFW718lfcUjA==",
+  "dgSpecHash": "OlSbzABsdfIdq1RIzq+g86IsG+IqW2ZqA5TLpGmH/BinmTfg/0nza6AK7ZFPR7cLku6P/2/v97yRsUCK8+mh3w==",
   "success": true,
   "projectFilePath": "D:\\Code\\UJ\\CSharp2\\04_Linq\\04_Linq.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\p1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
